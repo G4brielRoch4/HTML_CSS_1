@@ -1,5 +1,48 @@
-body
-{
-    background-color: #03bee6;
+*{
+    
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+
+body{
+
+    background-color: black;
+
+}
+
+.Menu{
+    
+    list-style: none;
+    padding: 0;
+    background-color: orangered;
+    
+}
+
+.Menu ul li{
+
+    display: inline;
+
+}
+
+.Menu ul li a{
+
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+      
+}
+
+.Menu ul li :hover{
+
+    background-color: grey;
+}
+
+#T1{
+    color: honeydew;
+    padding-left: 50px;
+
+}
