@@ -12,7 +12,7 @@ body{
 
 }
 
-.Menu{
+.menu{
     
     list-style: none;
     padding: 0;
@@ -20,13 +20,13 @@ body{
     
 }
 
-.Menu ul li{
+.menu ul li{
 
     display: inline;
 
 }
 
-.Menu ul li a{
+.menu ul li a{
 
     display: inline-block;
     padding: 20px;
@@ -36,13 +36,27 @@ body{
       
 }
 
-.Menu ul li :hover{
+.menu ul li :hover{
 
     background-color: grey;
 }
+
+.menu ul li:nth-last-child(-n+2) a{
+    float: right;
+}
+
 
 #T1{
     color: honeydew;
     padding-left: 50px;
 
+}
+
+#imgmenu{
+
+    position: fixed;
+    top: 2.1%;
+    left: 50%;
+    margin-right: -50%;
+  
 }
