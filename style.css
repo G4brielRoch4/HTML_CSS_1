@@ -68,3 +68,39 @@ body{
   
 }
 
+.captab1{
+    font: 14pt italic;
+}
+
+#tablecarpop1{
+    background-color: orangered;
+    width: 13cm;
+    height: 5.5cm;
+    position: absolute;
+    top: 35%;
+    left: 3%;
+    border: 2px solid grey;
+
+}
+.tablecarpop{
+    width: 12cm;
+}
+
+.tablecarpop thead{
+    font-size: 16pt;
+
+}
+
+.tablecarpop tbody{
+
+    text-align: center;
+    font-size: 13pt;
+    font-family:sans-serif;
+    width: 10cm;
+}
+
+.tablecarpop, th, td{
+    border: 1px dotted black;
+}
+
+
