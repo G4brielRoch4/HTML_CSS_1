@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2? family = Barlow: wght @ 100 & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Abrir + Sans & family = Poiret + One & display = swap');
+
 *{
     
     margin: 0 auto;
@@ -32,7 +35,9 @@ body{
     padding: 20px;
     text-decoration: none;
     color: black;
-    font-family: 'PT Sans', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    font-style:oblique;
       
 }
 
@@ -46,9 +51,11 @@ body{
 }
 
 
-#T1{
+#d1{
     color: honeydew;
     padding-left: 50px;
+    font-size: 15pt;
+    font-family: 'Poiret', 'Courier New', Courier, monospace;
 
 }
 
@@ -60,3 +67,4 @@ body{
     margin-right: -50%;
   
 }
+
